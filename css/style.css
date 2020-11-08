@@ -398,7 +398,7 @@
 }
 
 .contact h2 {
-  font-size: 3rem;
+  font-size: 3em;
   margin-bottom: 2rem;
 }
 
@@ -408,7 +408,7 @@
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .contact .social-icons {
@@ -426,6 +426,27 @@
   }
   .projects .text-secondary {
     font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .home {
+    padding-top: 20vh;
+  }
+  .contact {
+    padding-top: 10vh;
+    font-size: .5rem;
+  }
+  .contact_list {
+    font-size: .5rem;
+  }
+  h2 {
+    font-size: .5rem;
+    margin-bottom: 1rem;
+  }
+  .social-icons {
+    position: initial;
+    margin-top: 1rem;
   }
 }
 

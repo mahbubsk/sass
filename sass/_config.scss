@@ -28,8 +28,15 @@ $secondary-color:#ff6527;
     }
 }
 
+
 @mixin media-larg {
     @media screen and (min-width:1024px) {
+        @content;
+    }
+}
+
+@mixin media-medium {
+    @media screen and (min-width:360px) {
         @content;
     }
 }
