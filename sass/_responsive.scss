@@ -1,0 +1,14 @@
+@include media-larg{
+    .projects{
+        &_bio-image{
+            height:60vh;
+
+        }
+        &_items{
+            grid-template-columns: repeat(3,1fr);
+        }
+        .text-secondary{
+            font-size:3rem;
+        }
+    }
+}
